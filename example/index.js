@@ -1,7 +1,7 @@
 const express = require('express')
 const http = require('http')
 const terminus = require('../lib/terminus')
-const app = express()
+const app = express();
 
 app.get('/', (req, res) => {
   setTimeout(() => {
